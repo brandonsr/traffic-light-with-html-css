@@ -1,0 +1,86 @@
+h1{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.semaforo{
+    border: solid 1px black;
+    border-radius: 40px;
+    width: 250px;
+    height: 500px;
+    box-shadow: 6px 4px 4px;
+    background: #b1bf45;
+}
+
+.cuerpoSemaforo{
+    border: solid 1px black;
+    border-radius: 40px;
+    width: 170px;
+    height: 350px;
+    margin: 62px 42px 62px 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+}
+
+.luzroja{
+    width: 70px;
+    height: 70px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    background: rgb(238,174,202);
+    background: linear-gradient(18deg, rgba(238,174,202,1) 0%, rgba(38,39,40,1) 100%);
+    box-shadow: 2px -10px 4px;
+    animation-name: LuzRoja;
+    animation-duration: 5s;
+}
+@keyframes LuzRoja{
+    0% {background: #4b4e4e}
+    30% {background: red;}
+    70% {background: black;}
+    80% {background: red;}
+    90% {background: black;}
+    95% {background: red;}
+}
+
+.luzVerde{
+    width: 70px;
+    height: 70px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    background: rgb(238,174,202);
+    background: linear-gradient(18deg, rgba(238,174,202,1) 0%, rgba(38,39,40,1) 100%);
+    box-shadow: 2px -10px 4px;
+    animation-name: LuzVerde;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+@keyframes LuzVerde{
+    0% {background: #4b4e4e}
+    30% {background: green;}
+    70% {background: black;}
+    80% {background: green;}
+    90% {background: black;}
+    95% {background: green;}
+}
+
+.luzNaranja{
+    width: 70px;
+    height: 70px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    background: rgb(238,174,202);
+    background: linear-gradient(18deg, rgba(238,174,202,1) 0%, rgba(38,39,40,1) 100%);
+    box-shadow: 2px -10px 4px;
+    animation-name: LuzNaranja;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+@keyframes LuzNaranja{
+    0% {background: #4b4e4e}
+    30% {background: orange;}
+    70% {background: black;}
+    80% {background: orange;}
+    90% {background: black;}
+    95% {background: orange;}
+}
